@@ -16,19 +16,28 @@ captures/
 *.apk
 output-metadata.json
 
-# IntelliJ
+# IntelliJ / Android Studio
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+!.idea/codeStyles/
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/libraries/
 
-# Keystore files
+# Keystore files (sensitive)
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
+# Google Services - Firebase (Sensitive keys)
 google-services.json
 
 # Android Profiling
 *.hprof
+
+# Crashlytics / Firebase
+firebase-crashlytics/
+firebase.json
+
+# Other
+.DS_Store
+Thumbs.db
