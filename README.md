@@ -36,3 +36,10 @@ A simple yet powerful Android app that helps rural and home-based entrepreneurs 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/KutiraKushala.git
+
+## Firebase Setup (For Developers)
+
+1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
+2. Add your Android app to the Firebase project
+3. Download `google-services.json` and place it in the `app/` folder
+4. Enable Firestore Database and Storage
